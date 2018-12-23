@@ -17,10 +17,6 @@ puts "Welcome to Flatiron School's Web Development Course!"
     break 
   end
   end
-enddef loop_iterator(number_of_times)
-  loop do
-    puts "Welcome to Flatiron School's Web Development Course!"
-end
 
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword

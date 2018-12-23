@@ -7,6 +7,7 @@
   # Maybe we should keep count of the number of times we've puts out the 
   #  phrase and break when the counter hits the appropriate number...
 
+counter = 0
 def loop_iterator(number_of_times)
   counter = 0 
   counter = counter + 1

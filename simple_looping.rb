@@ -9,10 +9,12 @@
 
 
 def loop_iterator(number_of_times)
+  counter = 0
   loop do
-    puts "Welcome to Flatiron School's Web Development Course!"
-      break
-    end
+    counter += 1
+  puts "Welcome to Flatiron School's Web Development Course!"
+  break
+  end
   end
 
 
@@ -45,10 +47,4 @@ def for_iterator(number_of_times)
   for counter in 1..number_of_times do
   puts "Welcome to Flatiron School's Web Development Course!"
   end
-  # code your solution here using the "for" keyword
-  # remember that `for` requires a range of numbers. How can we turn our number into a range?
-  
-  
-  
 end
-
